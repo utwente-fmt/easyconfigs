@@ -1,0 +1,19 @@
+easyblock = 'CMakeMake'
+
+name = 'mcrl2'
+version = '201409.1'
+homepage = 'http://mcrl2.org/'
+description = "mCRL2 tool set"
+
+toolchain = {'name': 'GCC', 'version': '4.9.3'}
+
+source_urls = ['http://www.mcrl2.org/download/release']
+sources = ['mcrl2-201409.1.tar.gz']
+
+moduleclass = 'tools'
+
+checksums = [
+    '32818c4111aa406033e865c30ac7862b'
+]
+
+configopts  = ' -DMCRL2_ENABLE_GUI_TOOLS=OFF'

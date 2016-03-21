@@ -1,0 +1,18 @@
+easyblock = 'ConfigureMake'
+
+name = 'ltsmin'
+version = '2.1'
+homepage = 'https://github.com/utwente-fmt/ltsmin/'
+description = "LTSmin tool set"
+
+toolchain = {'name': 'dummy', 'version': ''}
+
+dependencies = [
+    ('mcrl2', '201409.1')
+]
+
+source_urls = ['https://github.com/utwente-fmt/ltsmin/releases/download/2.1']
+sources = ['ltsmin-2.1.tar.gz']
+
+moduleclass = 'tools'
+
